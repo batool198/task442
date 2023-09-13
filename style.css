@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* ------------NAV-TOP--------------------------- */
+#home {
+  height: 100vh;
+  color: white;
+  background: linear-gradient(
+      to right bottom,
+      rgba(3, 5, 59, 0.658),
+      rgba(16, 90, 228, 0.744)
+    ),
+    url(introboy.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.nav-bottom {
+  box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.5);
+}
+.navbar-top {
+  margin: 0 auto;
+  height: 10vh;
+  align-items: center;
+
+  border-bottom-width: 100%;
+}
+hr {
+  color: white;
+}
+.navbar-top .align {
+  text-align: right;
+}
+.font-nav {
+  font-size: 15px;
+}
+/* ---------------X---------NAV-TOP--------------------X------- */
+.navbar-toggler {
+  outline: none !important;
+  border: none;
+  background-color: transparent;
+  padding: 10px 6px;
+}
+.navbar-toggler span {
+  display: block;
+  width: 25px;
+  height: 2px;
+  border: 1px;
+  background-color: #fff;
+  margin-top: 5px;
+}
+
+.btn {
+  color: white;
+  border-radius: 50px;
+  padding: 10px 15px;
+  background-color: #00aeff;
+  font-size: 12px;
+  border: none;
+}
+.navbar .navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: "pacifico", cursive;
+  /* margin-right: 150px; */
+}
+
+.info-links i:hover {
+  color: rgba(238, 224, 208);
+  cursor: pointer;
+}
+
+.navbar ul li .nav-link {
+  color: white;
+  cursor: pointer;
+}
+.navbar ul li .nav-link:hover {
+  color: blue;
+}
+.nav-item {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+}
+
+.btn-primary {
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 10px 15px;
+}
+/* media query */
+@media (min-width: 992px) {
+  .nav-item {
+    border-bottom: none;
+  }
+}
+
+/* home */
+.content-home {
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.content-home h1 {
+  width: 500px;
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+/* box-shadow: 0 2px 0px rgba(0,0,0,0.5); */
+.img-g {
+  height: 60px;
+  width: 60px;
+
+  margin: 0 8px;
+}
+.boxes .box {
+  background-color: rgba(20, 95, 160, 0.289);
+}
+.box span {
+  font-size: 12px;
+}
+.pa {
+  display: inline-block;
+}
+
+/* -----------------------TOP CATEGORY-------------------- */
+
+.about {
+  background-color: rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+.about .about-img {
+  max-width: 100%;
+  height: 400px;
+  top: -30px;
+}
+
+.mar {
+  margin-top: -130px;
+}
+@media screen and (max-width: 990px) {
+  .mar {
+    margin-top: 0;
+  }
+}
+/* -------------------------------------EDUCATION PART------------------------------------------ */
+.box-educaton {
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.box-educaton .circle {
+  margin: auto;
+  height: 60px;
+  width: 60px;
+  border: 1px solid rgba(20, 95, 160, 0.289);
+  border-radius: 50%;
+}
+.bg-gray {
+  background-color: rgba(77, 73, 73, 0.186);
+}
+
+.body {
+  padding: 30px;
+}
+.color-yallow {
+  color: yellow;
+}
+.border-top {
+  border-top: 1px solid rgba(20, 95, 160, 0.289);
+}
+
+.bg-img {
+  background: linear-gradient(rgba(3, 5, 59, 0.658), rgba(16, 90, 228, 0.744)),
+    url(markus-spiske-AAz715reF9s-unsplash.jpg);
+  background-position: bottom;
+  background-size: cover;
+  height: 500px;
+}
+.height {
+  height: 500px;
+}
+
+/* --------------------------ABOUT------------------ */
+.img-about {
+  z-index: 55;
+}
+.img-about::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: aquamarine;
+  position: absolute;
+  left: 87px;
+  top: -24px;
+  z-index: -5;
+}
+.sc {
+  width: 200px;
+  object-fit: cover;
+}
+.shadow {
+  box-shadow: rgba(0, 0, 0, 0.8);
+}
+
+/* ----------------- */
+.pricing {
+  border: 1px solid rgb(214, 206, 206);
+  /* padding: 20px; */
+  padding: 20px 0;
+}
+.font-pricing {
+  font-size: 32px;
+}
+/*  */
+.round {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+/* kllj */
+.plus {
+  color: #000;
+  font-size: 30px;
+  padding-right: 10px;
+}
+.btn-link {
+  text-decoration: none;
+}
+.card {
+  border: none;
+  background-color: white;
+}
+.card-header {
+  background-color: #fff;
+  border: none;
+}
+.font-15 {
+  font-size: 15px;
+}
+
+.circle-footer {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 50px;
+}
+.circle-footer i {
+  font-size: 15px;
+}
+a {
+  color: white;
+}
